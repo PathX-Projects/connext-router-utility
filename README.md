@@ -1,4 +1,4 @@
-![logo](https://logovectordl.com/wp-content/uploads/2019/11/connext-inc-logo-vector.png)
+![logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkfmXaR9ORA_MTYOjxGjv1-yxi3b6ndqssbQ&usqp=CAU)
 
 # connext-router-utility
 
