@@ -4,7 +4,7 @@
 
 # connext-router-utility
 
-This repository contains a utility to accelerate deployment of a Connext router. Intended to be used in conjunction with the PathX AWS Connext Quickstart on Medium:
+This repository contains a CLI utility to accelerate deployment of a Connext router. Intended to be used in conjunction with the PathX AWS Connext Quickstart on Medium:
 
 > !! LINK PLACEHOLDER !!
 
