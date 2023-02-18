@@ -1,2 +1,21 @@
 # connext-router-utility
- Contains resources to accelerate deployment of a Connext router
+
+This repository contains a utility to accelerate deployment of a Connext router. Intended to be used in conjunction with the PathX AWS Connext Quickstart on Medium:
+
+> !! LINK PLACEHOLDER !!
+
+## Usage
+
+This utility assumes that you have cloned the repository in the same parent directory as the Connext router. For example:
+
+```
+parent
+├── nxtp
+└── connext-router-utility
+``` 
+
+Clone the repository, CD into it, and run the setup.py script from the repository root dir:
+
+```
+python setup.py
+```
