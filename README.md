@@ -1,5 +1,5 @@
 <p float="left">
-  <img height=100 src="https://i.ibb.co/yf9cqPx/Path-X-connext.png">
+  <img height=150 src="https://i.ibb.co/yf9cqPx/Path-X-connext.png">
  </p>
 
 # connext-router-utility
