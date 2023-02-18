@@ -1,3 +1,7 @@
+<p float="left">
+  <img height=200 src="https://i.ibb.co/yf9cqPx/Path-X-connext.png">
+ </p>
+
 # connext-router-utility
 
 This repository contains a utility to accelerate deployment of a Connext router. Intended to be used in conjunction with the PathX AWS Connext Quickstart on Medium:
