@@ -1,4 +1,4 @@
-![logo](https://lever-client-logos.s3.us-west-2.amazonaws.com/c3aed10b-b4d5-4c63-bf10-ab3393157986-1627427187686.png)
+![logo](https://logovectordl.com/wp-content/uploads/2019/11/connext-inc-logo-vector.png)
 
 # connext-router-utility
 
