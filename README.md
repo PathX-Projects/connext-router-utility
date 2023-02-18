@@ -18,8 +18,12 @@ parent
 └── connext-router-utility
 ``` 
 
-Clone the repository, CD into it, and run the setup.py script from the repository root dir:
+Clone the repository, CD into it, and run the main.py script from the repository root dir:
 
-```
-python setup.py
+```bash
+git clone https://github.com/PathX-Projects/connext-router-utility.git
+
+cd /connext-router-utility
+
+python main.py
 ```
