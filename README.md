@@ -10,7 +10,7 @@ This utility assumes that you have cloned the repository in the same parent dire
 
 ```
 parent
-├── nxtp
+├── router-docker-compose
 └── connext-router-utility
 ``` 
 
