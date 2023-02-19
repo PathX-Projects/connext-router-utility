@@ -32,5 +32,6 @@ then
 
     python3 -m utility
 else
+    echo "Exiting..."
     exit
 fi
