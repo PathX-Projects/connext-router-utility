@@ -16,7 +16,7 @@ if __name__ == "__main__":
     clr()
     print("Welcome to PathX's Connext Router Configuration Utility!\nThis script will accelerate the process of configuring your Connext Router.\nYou can use CTRL+C to exit the script at any time.")
     
-    router_repo = Path(__file__).parent.parent.joinpath('router-docker-compose')
+    router_repo = Path(__file__).parent.parent.parent.joinpath('router-docker-compose')
     
     if not router_repo.exists():
         print("\nERROR: Could not locate the router's repository. Please ensure that this repository is located in the same parent folder as your router's repository.\n(E.g. ~/router-docker-compose and ~/connext-router-utility)")
