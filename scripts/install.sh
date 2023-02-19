@@ -30,7 +30,7 @@ then
     
     cd ~/connext-router-utility
 
-    # Copy bash scripts in root directory
+    # Copy bash scripts to root directory
     cp ~/connext-router-utility/scripts/start.sh ~/
     cp ~/connext-router-utility/scripts/configure.sh ~/
     cp ~/connext-router-utility/scripts/stop.sh ~/

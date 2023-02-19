@@ -1,5 +1,5 @@
 {
-    "environment": "staging",
+    "environment": "production",
     "logLevel": "debug",
     "network": "testnet",
     "web3SignerUrl": "http://signer:9000",
