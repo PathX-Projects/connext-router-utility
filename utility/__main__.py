@@ -51,12 +51,12 @@ if __name__ == "__main__":
     
     print(f"\nYou will now be prompted to enter the comma-separated list of RPC providers you'd like to use for each {network} chain - E.g. https://mainnet.infura.io/v3/1234567890abcdef1234567890abcdef,https://mainnet.infura.io/v3/1234567890abcdef1234567890abcdef")
     for chain in chains:
-        providers = cPrompt(f"\nPlease enter the comma-separated list of providers you'd like to use for {chain['name']}: ").strip(" ").split(',')
-        print("PROVIDERS:", providers)
-        if len(providers) == 0:
+        r = cPrompt(f"\nPlease enter the comma-separated list of providers you'd like to use for {chain['name']}: ").strip(" ")
+        if len(r) == 0:
             print(f"No providers given - disabling {chain['name']} ({chain['id']})")
             config['chains'].pop(str(chain['id']))
         else:
+            providers = r.split(',')
             config['chains'][str(chain['id'])]['providers'] = providers
     
     private_key = cPrompt("\nEnter the private key of the wallet that you'd like to set and use as your Router. It is advisable that you create a fresh wallet for the router: ")
