@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-ROUTER_VERSION="sha-36344e2"
+# ROUTER_VERSION="sha-36344e2"
 
 clear
 
 # Confirm that user wants to run script:
-echo -e "This utility script will install the Connext Router (version $ROUTER_VERSION).\nDeveloped by PathX AI LLC.\n"
+echo -e "This utility script will install the Connext Router.\nDeveloped by PathX AI LLC.\n"
 
 read -r -p "Are you sure you want to install and configure the Connext Router? [y/N] " response
 if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]

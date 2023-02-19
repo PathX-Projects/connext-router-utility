@@ -11,7 +11,7 @@ if __name__ == "__main__":
         if c.lower() == 'y':
             return r
         else:
-            return cPrompt("Try Again: ", input_msg)
+            return cPrompt("Try Again: " + input_msg)
     
     clr()
     print("Welcome to PathX's Connext Router Configuration Utility!\nThis script will accelerate the process of configuring your Connext Router.\nYou can use CTRL+C to exit the script at any time.")
@@ -97,4 +97,4 @@ if __name__ == "__main__":
         with open(f, 'w') as key_file:
             key_file.write(key.format(private_key=private_key))
     
-    print(f"\nYour router has been configured! If you need to modify these files, you can find them in the {router_repo} directory.")
+    print(f"\nYour router has been configured! If you need to modify these files, you can find them in the {router_repo} directory.\nYou can also reconfigure using the ~/connext-router-utility/configure.sh script.")
