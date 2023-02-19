@@ -31,9 +31,9 @@ then
     cd ~/connext-router-utility
 
     # Copy bash scripts in root directory
-    cp /start.sh ~/
-    cp /configure.sh ~/
-    cp /stop.sh ~/
+    cp start.sh ~/
+    cp configure.sh ~/
+    cp stop.sh ~/
 
     # Run Python configuration script
     python3 -m utility
