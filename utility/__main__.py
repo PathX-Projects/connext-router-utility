@@ -51,7 +51,7 @@ if __name__ == "__main__":
     
     print(f"\nYou will now be prompted to enter the comma-separated list of RPC providers you'd like to use for each {network} chain - E.g. https://mainnet.infura.io/v3/1234567890abcdef1234567890abcdef,https://mainnet.infura.io/v3/1234567890abcdef1234567890abcdef")
     for chain in chains:
-        r = cPrompt(f"\nPlease enter the comma-separated list of providers you'd like to use for {chain['name']}: ").strip(" ")
+        r = cPrompt(f"\nPlease enter the comma-separated list of providers you'd like to use for {chain['name']} (leave blank to disable chain): ").strip(" ")
         if len(r) == 0:
             print(f"No providers given - disabling {chain['name']} ({chain['id']})")
             config['chains'].pop(str(chain['id']))
