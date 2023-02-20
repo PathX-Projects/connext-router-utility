@@ -18,6 +18,14 @@ sudo apt-get update
 sudo apt-get install wget
 ```
 
+Verify that Python3 is installed using the following command:
+
+```bash
+python3 --version
+```
+
+> If python3 is not installed, install it using `sudo apt-get install python3`
+
 Pull the **install.sh** script and install: 
 
 ```bash
