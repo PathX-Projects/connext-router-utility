@@ -8,4 +8,4 @@ sudo docker-compose create
 # Start the Connext router detached
 sudo docker-compose up -d
 
-echo -e "\nConnext router has been started!\nYou can check the logs using: sudo docker-compose logs"
+echo -e "\nConnext router has been started!\nYou can check the logs using: cd ~/router-docker-compose && sudo docker-compose logs"

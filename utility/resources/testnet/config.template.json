@@ -30,9 +30,7 @@
                     "name": "WETH"
                 }
             ],
-            "providers": [
-                "https://goerli.infura.io/v3/56ff98ffa1e341c39816d506476dcb07"
-            ]
+            "providers": []
         },
         "1735356532": {
             "assets": [
@@ -53,10 +51,7 @@
                     "name": "TKN"
                 }
             ],
-            "providers": [
-                "https://rpc-mumbai.maticvigil.com/",
-                "https://polygon-mumbai.infura.io/v3/56ff98ffa1e341c39816d506476dcb07"
-            ]
+            "providers": []
         },
         "9991": {
             "assets": [
@@ -73,10 +68,7 @@
                     "name": "WETH"
                 }
             ],
-            "providers": [
-                "https://rpc-mumbai.maticvigil.com/",
-                "https://polygon-mumbai.infura.io/v3/56ff98ffa1e341c39816d506476dcb07"
-            ]
+            "providers": []
         },
         "421613": {
             "assets": [
@@ -89,10 +81,7 @@
                     "name": "WETH"
                 }
             ],
-            "providers": [
-                "https://rpc-mumbai.maticvigil.com/",
-                "https://polygon-mumbai.infura.io/v3/56ff98ffa1e341c39816d506476dcb07"
-            ]
+            "providers": []
         }
     }
 }
