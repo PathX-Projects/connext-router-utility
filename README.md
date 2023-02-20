@@ -30,6 +30,10 @@ This utility creates the following file structure on your machine:
 
 ```
 ~
-├── router-docker-compose
-└── connext-router-utility
+├── /router-docker-compose  <- Official Connext Router repository 
+├── /connext-router-utility  <- This repository
+├── install.sh
+├── configure.sh
+├── start.sh
+└── exit.sh
 ``` 
