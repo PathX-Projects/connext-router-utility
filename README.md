@@ -18,12 +18,10 @@ parent
 └── connext-router-utility
 ``` 
 
-Clone the repository, CD into it, and run the install script from the repository root dir:
+Pull the **install.sh** script and install: 
 
 ```bash
-git clone https://github.com/PathX-Projects/connext-router-utility.git
-
-cd /connext-router-utility
+wget https://raw.githubusercontent.com/PathX-Projects/connext-router-utility/main/scripts/install.sh
 
 bash install.sh
 ```
