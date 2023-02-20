@@ -10,13 +10,13 @@ https://medium.com/@hschick/connext-router-aws-quickstart-guide-252867bc58fe
 
 ## Usage
 
-This utility assumes that you have cloned the repository in the same parent directory as the Connext router. For example:
+Update your apt-get dependency manager:
 
+```bash
+sudo apt-get update
+
+sudo apt-get install wget
 ```
-parent
-├── router-docker-compose
-└── connext-router-utility
-``` 
 
 Pull the **install.sh** script and install: 
 
@@ -25,3 +25,11 @@ wget https://raw.githubusercontent.com/PathX-Projects/connext-router-utility/mai
 
 bash install.sh
 ```
+
+This utility creates the following file structure on your machine:
+
+```
+~
+├── router-docker-compose
+└── connext-router-utility
+``` 
