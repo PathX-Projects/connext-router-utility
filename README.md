@@ -8,7 +8,7 @@ This repository contains a CLI utility to accelerate deployment of a Connext rou
 
 https://medium.com/@hschick/connext-router-aws-quickstart-guide-252867bc58fe
 
-## Usage
+## UNIX Command Line Usage
 
 Update your apt-get dependency manager:
 
