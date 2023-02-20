@@ -6,7 +6,7 @@
 
 This repository contains a CLI utility to accelerate deployment of a Connext router. Intended to be used in conjunction with the PathX AWS Connext Quickstart on Medium:
 
-> !! LINK PLACEHOLDER !!
+https://medium.com/@hschick/connext-router-aws-quickstart-guide-252867bc58fe
 
 ## Usage
 
