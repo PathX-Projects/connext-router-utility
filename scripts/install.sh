@@ -34,6 +34,7 @@ then
     cp ~/connext-router-utility/scripts/start.sh ~/
     cp ~/connext-router-utility/scripts/configure.sh ~/
     cp ~/connext-router-utility/scripts/stop.sh ~/
+    cp ~/connext-router-utility/scripts/exit.sh ~/
 
     # Run Python configuration script
     python3 -m utility
