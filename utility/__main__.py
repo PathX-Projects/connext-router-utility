@@ -49,9 +49,9 @@ if __name__ == "__main__":
 
     config['server']['adminToken'] = admin_token
     
-    print(f"\nYou will now be prompted to enter the comma-separated list of RPC providers you'd like to use for each {network} chain - E.g. https://mainnet.infura.io/v3/1234567890abcdef1234567890abcdef,https://mainnet.infura.io/v3/1234567890abcdef1234567890abcdef")
+    print(f"\nYou will now be prompted to enter the comma-separated list of RPC provider URLs you'd like to use for each {network} chain (e.g. url,url,url).\nIf you need a provider for a chain, try https://www.infura.io/ or check https://rpc.info/")
     for chain in chains:
-        r = cPrompt(f"\nPlease enter the comma-separated list of providers you'd like to use for {chain['name']} (leave blank to disable chain): ").strip(" ")
+        r = cPrompt(f"\nPlease enter a comma-separated list of providers you'd like to use for {chain['name']} (leave blank to disable chain): ").strip(" ")
         if len(r) == 0:
             print(f"No providers given - disabling {chain['name']} ({chain['id']})")
             config['chains'].pop(str(chain['id']))
